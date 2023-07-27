@@ -1,6 +1,6 @@
 # OneToOne_mapping(unidirectional)
 ## Introduction
-OneToOneMappingUnidirectional is a simple Spring Boot project that demonstrates one-to-one mapping between two entities in an unidirectional manner. In this project, we have two entities, Person and Address, where each person has only one address. The application uses Thymeleaf as the templating engine to display user and address details on a web page.
+OneToOneMappingUnidirectional is a simple Spring Boot project that demonstrates one-to-one mapping between two entities in an unidirectional manner. In this project, we have two entities, Person and Address, where each person has only one address. The application uses postman (jason) to insert data into data base.
 ## Installation and Setup
 1. Clone the repository from GitHub:
 git clone https://github.com/raj708/OneToOne_Mapping_unidirectional.git
@@ -10,7 +10,7 @@ git clone https://github.com/raj708/OneToOne_Mapping_unidirectional.git
 ## Usage
 1. Run the Spring Boot application.
 2. Navigate to http://localhost:7878/addDetails in your web browser, where {id} corresponds to an existing user ID in the database.
-3. The user details, along with the associated address details, will be displayed on the web page.
+3. The user details, along with the associated address details, will be store into database.
 ## Entity Relationship
 The project defines two entities: Person and Address.
 ### Person Entity:
